@@ -46,7 +46,7 @@ img {
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: 85%;
+    max-width: 80%;
   }
 }
 @media (max-width: 1550px) {
@@ -56,7 +56,7 @@ img {
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: 90%;
+    max-width: 81%;
   }
 }
 @media (max-width: 992px) {
@@ -301,7 +301,7 @@ main {
   }
 
   .section1 > div .state span:last-of-type {
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 }
 @media (max-width: 992px) {
@@ -887,32 +887,32 @@ hr {
 }
 @media (max-width: 1550px) {
   .section2 .sammary > div {
-    padding: 1.5rem;
+    padding: 1.2rem;
   }
   .section2 .sammary > div:first-of-type > p:first-of-type {
-    font-size: 1.7rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
   }
   .section2 .sammary > div:first-of-type > p:first-of-type::after {
     width: 23%;
   }
 
   .section2 .sammary > div:first-of-type > div > div > p:first-of-type {
-    font-size: 1.3rem;
-  }
-
-  .section2 .sammary > div:first-of-type > div > p span {
-    font-size: 1.3rem;
-  }
-  .section2 .sammary > div:first-of-type > div:last-of-type {
-    padding: 0.6rem;
-  }
-  .section2 .sammary > div:first-of-type > div:last-of-type p:first-of-type {
     font-size: 1.2rem;
   }
 
-  .section2 .sammary > div:last-of-type > div input {
+  .section2 .sammary > div:first-of-type > div > p span {
+    font-size: 1.2rem;
+  }
+  .section2 .sammary > div:first-of-type > div:last-of-type {
+    padding: 0.5rem;
+  }
+  .section2 .sammary > div:first-of-type > div:last-of-type p:first-of-type {
     font-size: 1.1rem;
+  }
+
+  .section2 .sammary > div:last-of-type > div input {
+    font-size: 1rem;
   }
 
   .section2 .sammary > div:last-of-type > div::after {
@@ -920,34 +920,34 @@ hr {
   }
 
   .section2 .content > div .btns button {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .section2 .content > div .texts > div {
     padding: 2rem 0.5rem 1rem;
   }
   .section2 .content > div .texts > div:first-of-type > div {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
   }
 
   .section2 .content > div .texts > div:first-of-type > div p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .section2 .content > div .texts > div:nth-of-type(3) > div > div p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .section2 .content > div .texts > div:nth-of-type(2) > div p,
   .section2 .content > div .texts > div:nth-of-type(4) > div p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .section2 .requrment > p:first-of-type {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .section2 .requrment > div {
-    margin: 1.5rem 0;
+    margin: 1.2rem 0;
   }
   .section2 .requrment > div p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
   }
 
@@ -960,24 +960,24 @@ hr {
     right: 0.5rem;
   }
   .section2 .requrment > div > div div span img {
-    width: 1.5rem;
+    width: 1.3rem;
   }
 
   .section2 .confirmCheck {
-    margin-top: 2rem !important;
+    margin-top: 1.5rem !important;
   }
 
   .section2 .confirmCheck label {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .section2 .AccountNumber > p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 1.3rem;
   }
 
   .section2 .AccountNumber > div:first-of-type label,
   .section2 .AccountNumber > div:nth-of-type(3) label {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .section2 .AccountNumber > div:first-of-type > div:first-of-type input,
@@ -986,21 +986,21 @@ hr {
     font-size: 1rem;
   }
   .section2 .AccountNumber > div:nth-of-type(2) > p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .section2 .AccountNumber > div:nth-of-type(2) > div {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.1rem;
   }
 
   .section2 .AccountNumber > div:nth-of-type(2) > div label {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .section2 .AccountNumber > div:nth-of-type(2) > div label span {
     margin-right: 3rem;
   }
   .section2 .paymentMethod p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 1.3rem;
   }
   .section2 .paymentMethod > div {
     padding-bottom: 1rem;
@@ -1014,7 +1014,7 @@ hr {
   }
 
   .section2 .payPart > div label {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .section2 .payPart > div:last-of-type {
@@ -1022,11 +1022,11 @@ hr {
   }
   .section2 .payPart > div:last-of-type button:first-of-type {
     width: 20%;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .section2 .payPart > div:last-of-type a {
     width: 20%;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 @media (max-width: 992px) {
@@ -1149,7 +1149,7 @@ hr {
 @media (max-width: 576px) {
   .section2 {
     margin-top: 0rem;
-    padding: 1rem;
+    padding: 0.7rem;
   }
 
   .section2 .content > div {
@@ -1157,36 +1157,36 @@ hr {
   }
 
   .section2 .sammary > div:first-of-type > p:first-of-type {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .section2 .sammary > div:first-of-type > p:first-of-type::after {
     width: 15%;
   }
   .section2 .sammary > div:first-of-type > div > div > p:first-of-type {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
   }
   .section2 .sammary > div:first-of-type > div > div > p:last-of-type {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .section2 .sammary > div:first-of-type > div > p span {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .section2 .sammary > div:first-of-type > div:last-of-type p:first-of-type {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .section2 .sammary > div:last-of-type > div input {
-    font-size: 0.9rem;
-    padding: 1rem 0.5rem;
+    font-size: 0.8rem;
+    padding: 0.9rem 0.5rem;
   }
   .section2 .content > div .btns {
-    padding: 1rem 0.5rem !important;
+    padding: 0.5rem 0.3rem !important;
   }
   .section2 .content > div .btns button {
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     text-align: center;
   }
   .section2 .content > div .texts > div:first-of-type > div {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
   }
 
   .section2 .content > div .texts > div > div,
@@ -1211,19 +1211,19 @@ hr {
 
   .section2 .content > div .texts > div > div p {
     width: 100% !important;
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
     font-weight: 500 !important;
   }
   .section2 .requrment > div:first-of-type {
     flex-wrap: wrap;
   }
   .section2 .requrment > div > div {
-    width: 45%;
+    width: 40%;
     margin-bottom: 1rem;
   }
 
   .section2 .requrment > div > div div span img {
-    width: 1.2rem;
+    width: 1.1rem;
   }
   .section2 .AccountNumber > div:first-of-type,
   .section2 .AccountNumber > div:nth-of-type(3) {
@@ -1235,7 +1235,7 @@ hr {
   }
 
   .section2 .confirmCheck label {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .section2 .paymentMethod > div {
@@ -1252,10 +1252,10 @@ hr {
   }
 
   .section2 .payPart > div:last-of-type button:first-of-type {
-    width: 45%;
+    width: 40%;
   }
   .section2 .payPart > div:last-of-type a {
-    width: 45%;
+    width: 40%;
   }
 }
 /* -------end section2 */
@@ -1416,7 +1416,7 @@ footer > div > div:nth-of-type(3) img {
     justify-content: center;
   }
   footer > div:last-of-type p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-align: center;
   }
 }
