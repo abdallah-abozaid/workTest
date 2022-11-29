@@ -97,7 +97,7 @@ img {
   z-index: 100;
 }
 .contact a img {
-  width: 8rem;
+  width: 72px;
 }
 /* -------------------------------------------------end stander */
 /* -------------------------------------------------start header */
@@ -112,7 +112,7 @@ header {
 }
 
 header .nav-link {
-  font-size: 1.2rem;
+  font-size: 16px;
   margin: 0 1rem;
   color: #212121;
 }
@@ -120,12 +120,12 @@ header .nav-link {
   margin-right: 0rem;
 }
 .navbar-brand img {
-  width: 10rem;
+  width: 138.24px;
 }
 .navbar form > button {
   background: transparent;
   color: #328eb2;
-  font-size: 1.2rem;
+  font-size: 16px;
   outline: none !important;
   box-shadow: none !important;
 }
@@ -147,7 +147,7 @@ header .nav-link {
   padding: 0.5rem;
   outline: none !important;
   box-shadow: none !important;
-  font-size: 1.2rem;
+  font-size: 16px;
 }
 .navbar form > div > button::after {
   display: none;
@@ -155,7 +155,7 @@ header .nav-link {
 .navbar-toggler {
   padding: 0.5rem;
   box-shadow: none !important;
-  font-size: 1.25rem;
+  font-size: 18px;
   border: 0.2rem solid #267eaa;
   border-bottom-color: #3ab54a;
   border-left-color: #3ab54a;
@@ -166,22 +166,22 @@ header .nav-link {
     right: 1rem;
   }
   .contact a img {
-    width: 7rem;
+    width: 6rem;
   }
   body {
     padding-top: 6rem;
   }
   header .nav-link {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     margin: 0 1rem;
     color: #212121;
   }
 
   .navbar-brand img {
-    width: 9.5rem;
+    width: 7rem;
   }
   .navbar form > button {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
   .navbar form > div::after {
     top: 30%;
@@ -189,7 +189,7 @@ header .nav-link {
     height: 40%;
   }
   .navbar form > div > button {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
   }
 }
 @media (max-width: 992px) {
@@ -249,15 +249,15 @@ main {
 .section1 > div .state span:first-of-type {
   background: #f9f9f9;
   border: 0.5px solid #ababab;
-  width: 4rem;
-  height: 4rem;
+  width: 54px;
+  height: 54px;
   border-radius: 50%;
   margin: auto;
   margin-bottom: 0.6rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 25px;
 }
 .section1 > div .state.Done span:first-of-type {
   background: #5cb75c;
@@ -270,22 +270,25 @@ main {
   border-color: #267eaa;
 }
 .section1 > div .state span:last-of-type {
-  font-size: 1.25rem;
+  font-size: 16px;
 }
 .section1 > div .state.current span:last-of-type {
   font-weight: 600;
 }
 .section1 .arrow {
   background: #ffffff;
-  border: 2px solid #ababab;
-  width: 2rem;
-  height: 2rem;
+  border: 2px solid #f9f9f9;
+  width: 24px;
+  height: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   transform: translateY(-55%);
   border-radius: 50%;
   box-shadow: -3px 3px 18px rgba(92, 183, 92, 0.3);
+}
+.section1 .arrow svg {
+  width: 11.1px;
 }
 .section1 .arrow.Done {
   background: #5cb75c;
@@ -297,11 +300,11 @@ main {
     width: 3.5rem;
     height: 3.5rem;
     margin-bottom: 0.5rem;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   .section1 > div .state span:last-of-type {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 }
 @media (max-width: 992px) {
@@ -319,11 +322,11 @@ main {
     width: 3rem;
     height: 3rem;
     margin-bottom: 0.4rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .section1 > div .state span:last-of-type {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .section1 .arrow {
@@ -356,11 +359,11 @@ main {
   .section1 > div .state span:first-of-type {
     width: 2rem;
     height: 2rem;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
   .section1 > div .state span:last-of-type {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
   }
 
   .section1 .arrow {
@@ -392,7 +395,7 @@ main {
   padding: 2rem;
 }
 .section2 .sammary > div:first-of-type > p:first-of-type {
-  font-size: 2rem;
+  font-size: 25px;
   position: relative;
   margin-bottom: 2rem;
 }
@@ -411,18 +414,19 @@ main {
   justify-content: space-between;
 }
 .section2 .sammary > div:first-of-type > div > div > p:first-of-type {
-  font-size: 1.5rem;
+  font-size: 20px;
   margin-bottom: 0.3rem;
 }
 .section2 .sammary > div:first-of-type > div > div > p:last-of-type {
   margin: 0;
+  font-size: 14px;
 }
 .section2 .sammary > div:first-of-type > div > p {
   margin-bottom: 0;
 }
 .section2 .sammary > div:first-of-type > div > p span {
   color: #328eb2;
-  font-size: 1.5rem;
+  font-size: 25px;
   margin-left: 0.5rem;
   font-weight: 600;
 }
@@ -436,11 +440,12 @@ hr {
 }
 
 .section2 .sammary > div:first-of-type > div:last-of-type p:first-of-type {
-  font-size: 1.5rem;
+  font-size: 20px;
   color: #fff !important;
 }
 .section2 .sammary > div:first-of-type > div:last-of-type span {
   color: #fff !important;
+  font-size: 25px;
 }
 .section2 .sammary > div:last-of-type > div {
   background: #ffffff;
@@ -450,7 +455,7 @@ hr {
 }
 .section2 .sammary > div:last-of-type > div input {
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 16px;
   height: 100%;
   border: none;
   padding: 1rem;
@@ -462,7 +467,7 @@ hr {
   top: 50%;
   left: 1rem;
   transform: translateY(-50%);
-  width: 2.5rem;
+  width: 37.24px;
 }
 .section2 .sammary > div:last-of-type > div::after {
   content: "";
@@ -470,7 +475,7 @@ hr {
   top: 20%;
   width: 0.06rem;
   background-color: #ababab;
-  left: 4.5rem;
+  left: 4.1rem;
   height: 60%;
 }
 .section2 .content > div {
@@ -492,7 +497,7 @@ hr {
 .section2 .content > div .btns button {
   background-color: transparent;
   border: none;
-  font-size: 1.3rem;
+  font-size: 16px;
   position: relative;
 }
 .section2 .content > div .btns button.active {
@@ -545,7 +550,7 @@ hr {
 .section2 .content > div .texts > div:nth-of-type(2) > div p,
 .section2 .content > div .texts > div:nth-of-type(4) > div p,
 .section2 .content > div .texts > div:nth-of-type(3) > div > div p {
-  font-size: 1.4rem;
+  font-size: 16px;
   margin-bottom: 0;
 }
 .section2 .content > div .texts > div:nth-of-type(2) > div p:nth-of-type(1) {
@@ -634,7 +639,7 @@ hr {
   font-weight: 600;
 }
 .section2 .requrment > p:first-of-type {
-  font-size: 1.5rem;
+  font-size: 16px;
   font-weight: 600;
 }
 .section2 .requrment > div {
@@ -644,20 +649,21 @@ hr {
   justify-content: space-between;
 }
 .section2 .requrment > div p {
-  font-size: 1.3rem;
+  font-size: 16px;
 }
 .section2 .requrment > div > div {
   width: 17%;
 }
 .section2 .requrment > div > div > div {
   background: #f7f9fb;
+  border: 0.5px solid #ababab;
+  box-shadow: -3px 3px 18px rgba(92, 183, 92, 0.3);
+  border-radius: 12px;
   position: relative;
   height: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 0.5px solid #ababab;
-  box-shadow: -3px 3px 18px rgba(92, 183, 92, 0.3);
   border-radius: 12px;
 }
 .section2 .requrment > div > div > div span {
@@ -666,10 +672,10 @@ hr {
   right: 1rem;
 }
 .section2 .requrment > div > div div span img {
-  width: 2rem;
+  width: 16px;
 }
 .section2 .requrment > div > div > div img {
-  width: 40%;
+  width: 56.93px;
 }
 .section2 .requrment > div > div:nth-of-type(3) > div > img,
 .section2 .requrment > div > div:nth-of-type(4) > div > img {
@@ -686,10 +692,10 @@ hr {
   height: 2rem !important;
 }
 .section2 .confirmCheck label {
-  font-size: 1.3rem;
+  font-size: 16px;
 }
 .section2 .AccountNumber > p {
-  font-size: 1.5rem;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 2rem;
 }
@@ -700,7 +706,7 @@ hr {
 }
 .section2 .AccountNumber > div:first-of-type label,
 .section2 .AccountNumber > div:nth-of-type(3) label {
-  font-size: 1.3rem;
+  font-size: 16px;
   display: block;
   margin-bottom: 0.6rem;
 }
@@ -722,7 +728,7 @@ hr {
   text-align: right;
   padding: 1rem;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 16px;
   position: relative;
 }
 .section2 .AccountNumber > div:first-of-type > div:last-of-type button::after {
@@ -732,7 +738,7 @@ hr {
   transform: translateY(-50%);
 }
 .section2 .AccountNumber > div:nth-of-type(2) > p {
-  font-size: 1.3rem;
+  font-size: 16px;
 }
 .section2 .AccountNumber > div:nth-of-type(2) > div {
   background: #328eb2;
@@ -746,8 +752,8 @@ hr {
   -webkit-appearance: none;
   appearance: none;
   background-color: #fff;
-  width: 1.5em !important;
-  height: 1.5em !important;
+  width: 16px !important;
+  height: 16px !important;
   border: 0.1rem solid #fff;
   border-radius: 50%;
   display: grid;
@@ -767,14 +773,14 @@ hr {
   transform: scale(1);
 }
 .section2 .AccountNumber > div:nth-of-type(2) > div label {
-  font-size: 1.2rem;
+  font-size: 16px;
   cursor: pointer;
 }
 .section2 .AccountNumber > div:nth-of-type(2) > div label span {
   margin-right: 4rem;
 }
 .section2 .paymentMethod p {
-  font-size: 1.5rem;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
@@ -789,7 +795,7 @@ hr {
   box-shadow: -3px 3px 18px rgba(92, 183, 92, 0.3);
   border-radius: 12px;
   width: 23%;
-  height: 10rem;
+  height: 134px;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -806,9 +812,9 @@ hr {
   background-color: #fff;
   margin: 0;
   font: inherit;
-  width: 1.5em !important;
-  height: 1.5em !important;
-  border: 0.1rem solid #212121;
+  width: 24px !important;
+  height: 24px !important;
+  border: 1px solid #212121;
   border-radius: 50%;
   display: grid;
   place-content: center;
@@ -816,8 +822,8 @@ hr {
 }
 .section2 .paymentMethod > div > label input::before {
   content: "";
-  width: 1rem;
-  height: 1rem;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   background-color: #267eaa;
   transform: scale(0);
@@ -828,7 +834,7 @@ hr {
   transform: scale(1);
 }
 .section2 .paymentMethod > div > label img {
-  width: 8rem;
+  width: 90px;
 }
 .section2 .paymentMethod > div > label.active {
   background: #f7f9fb;
@@ -849,7 +855,7 @@ hr {
   margin-left: 0.6rem;
 }
 .section2 .payPart > div label {
-  font-size: 1.3rem;
+  font-size: 16px;
   cursor: pointer;
 }
 .section2 .payPart > div label a {
@@ -866,21 +872,21 @@ hr {
   border-radius: 12px;
   color: #fff;
   padding: 1rem;
-  width: 15%;
+  width: 228px;
   text-align: center;
   border: none;
-  font-size: 1.2rem;
+  font-size: 16px;
 }
 .section2 .payPart > div:last-of-type a {
   background: #ffffff;
   box-shadow: -3px 3px 18px rgba(92, 183, 92, 0.3);
   border-radius: 12px;
   padding: 1rem;
-  width: 15%;
+  width: 228px;
   text-align: center;
   color: #212121;
   border: none;
-  font-size: 1.2rem;
+  font-size: 16px;
 }
 .section2 .sammary > div:first-of-type > div > p {
   color: #ccc;
@@ -890,29 +896,30 @@ hr {
     padding: 1.2rem;
   }
   .section2 .sammary > div:first-of-type > p:first-of-type {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 1.2rem;
   }
   .section2 .sammary > div:first-of-type > p:first-of-type::after {
     width: 23%;
   }
 
-  .section2 .sammary > div:first-of-type > div > div > p:first-of-type {
-    font-size: 1.2rem;
+  .section2 .sammary > div:first-of-type > div > div > p:first-of-type,
+  .section2 .sammary > div:first-of-type > div:last-of-type span {
+    font-size: 1.1rem;
   }
 
   .section2 .sammary > div:first-of-type > div > p span {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .section2 .sammary > div:first-of-type > div:last-of-type {
     padding: 0.5rem;
   }
   .section2 .sammary > div:first-of-type > div:last-of-type p:first-of-type {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .section2 .sammary > div:last-of-type > div input {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .section2 .sammary > div:last-of-type > div::after {
@@ -920,7 +927,7 @@ hr {
   }
 
   .section2 .content > div .btns button {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .section2 .content > div .texts > div {
@@ -931,23 +938,23 @@ hr {
   }
 
   .section2 .content > div .texts > div:first-of-type > div p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .section2 .content > div .texts > div:nth-of-type(3) > div > div p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .section2 .content > div .texts > div:nth-of-type(2) > div p,
   .section2 .content > div .texts > div:nth-of-type(4) > div p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .section2 .requrment > p:first-of-type {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .section2 .requrment > div {
     margin: 1.2rem 0;
   }
   .section2 .requrment > div p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-bottom: 0.5rem;
   }
 
@@ -968,38 +975,38 @@ hr {
   }
 
   .section2 .confirmCheck label {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .section2 .AccountNumber > p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 1.3rem;
   }
 
   .section2 .AccountNumber > div:first-of-type label,
   .section2 .AccountNumber > div:nth-of-type(3) label {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .section2 .AccountNumber > div:first-of-type > div:first-of-type input,
   .section2 .AccountNumber > div:first-of-type > div:last-of-type button,
   .section2 .AccountNumber > div:nth-of-type(3) input {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .section2 .AccountNumber > div:nth-of-type(2) > p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .section2 .AccountNumber > div:nth-of-type(2) > div {
     margin-bottom: 1.1rem;
   }
 
   .section2 .AccountNumber > div:nth-of-type(2) > div label {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .section2 .AccountNumber > div:nth-of-type(2) > div label span {
     margin-right: 3rem;
   }
   .section2 .paymentMethod p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 1.3rem;
   }
   .section2 .paymentMethod > div {
@@ -1014,7 +1021,7 @@ hr {
   }
 
   .section2 .payPart > div label {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .section2 .payPart > div:last-of-type {
@@ -1022,11 +1029,11 @@ hr {
   }
   .section2 .payPart > div:last-of-type button:first-of-type {
     width: 20%;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .section2 .payPart > div:last-of-type a {
     width: 20%;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 992px) {
@@ -1046,7 +1053,7 @@ hr {
   }
 
   .section2 .sammary > div:first-of-type > p:first-of-type {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
   }
   .section2 .sammary > div:first-of-type > p:first-of-type::after {
@@ -1054,7 +1061,7 @@ hr {
   }
 
   .section2 .content > div .btns button {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .section2 .content > div .texts > div:first-of-type > div {
@@ -1062,23 +1069,23 @@ hr {
   }
 
   .section2 .content > div .texts > div:first-of-type > div p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .section2 .content > div .texts > div:nth-of-type(3) > div > div p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
   .section2 .content > div .texts > div:nth-of-type(2) > div p,
   .section2 .content > div .texts > div:nth-of-type(4) > div p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .section2 .requrment > p:first-of-type {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .section2 .requrment > div {
     margin: 1.5rem 0;
   }
   .section2 .requrment > div p {
-    font-size: 1rem;
+    font-size: 0.95rem;
     margin-bottom: 0.5rem;
   }
 
@@ -1087,36 +1094,36 @@ hr {
   }
 
   .section2 .confirmCheck label {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
   .section2 .AccountNumber > p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
   }
 
   .section2 .AccountNumber > div:first-of-type label,
   .section2 .AccountNumber > div:nth-of-type(3) label {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .section2 .AccountNumber > div:first-of-type > div:first-of-type input,
   .section2 .AccountNumber > div:first-of-type > div:last-of-type button,
   .section2 .AccountNumber > div:nth-of-type(3) input {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
   .section2 .AccountNumber > div:nth-of-type(2) > p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
   .section2 .AccountNumber > div:nth-of-type(2) > div {
     margin-bottom: 1rem;
   }
 
   .section2 .AccountNumber > div:nth-of-type(2) > div label {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   .section2 .paymentMethod p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
   }
   .section2 .paymentMethod > div {
@@ -1131,7 +1138,7 @@ hr {
   }
 
   .section2 .payPart > div label {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .section2 .payPart > div:last-of-type {
@@ -1139,18 +1146,18 @@ hr {
   }
   .section2 .payPart > div:last-of-type button:first-of-type {
     width: 25%;
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
   .section2 .payPart > div:last-of-type a {
     width: 25%;
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 }
 @media (max-width: 576px) {
   .section2 .AccountNumber > div:first-of-type > div:first-of-type input,
   .section2 .AccountNumber > div:first-of-type > div:last-of-type button,
   .section2 .AccountNumber > div:nth-of-type(3) input {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     margin-bottom: 1rem;
     padding: 0.8rem;
   }
@@ -1158,15 +1165,15 @@ hr {
   .section2 .AccountNumber > div:first-of-type label,
   .section2 .payPart > div label,
   .section2 .AccountNumber > div:nth-of-type(3) label {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
   .section2 .AccountNumber > p,
   .section2 .paymentMethod p {
-    font-size: 1rem;
+    font-size: 0.95rem;
     margin-bottom: 1rem;
   }
   .section2 .requrment > p:first-of-type {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
   .section2 {
     margin-top: 0rem;
@@ -1178,22 +1185,23 @@ hr {
   }
 
   .section2 .sammary > div:first-of-type > p:first-of-type {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
   .section2 .sammary > div:first-of-type > p:first-of-type::after {
     width: 15%;
   }
-  .section2 .sammary > div:first-of-type > div > div > p:first-of-type {
-    font-size: 0.85rem;
+  .section2 .sammary > div:first-of-type > div > div > p:first-of-type,
+  .section2 .sammary > div:first-of-type > div:last-of-type span {
+    font-size: 0.8rem;
   }
   .section2 .sammary > div:first-of-type > div > div > p:last-of-type {
     font-size: 0.7rem;
   }
   .section2 .sammary > div:first-of-type > div > p span {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
   .section2 .sammary > div:first-of-type > div:last-of-type p:first-of-type {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
   .section2 .sammary > div:last-of-type > div input {
     font-size: 0.8rem;
@@ -1232,7 +1240,7 @@ hr {
 
   .section2 .content > div .texts > div > div p {
     width: 100% !important;
-    font-size: 0.9rem !important;
+    font-size: 0.85rem !important;
     font-weight: 500 !important;
   }
   .section2 .requrment > div:first-of-type {
@@ -1320,7 +1328,7 @@ footer > div:last-of-type {
 }
 footer > div:last-of-type p {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 16px;
 }
 footer > div > div:nth-of-type(1) {
   width: 37%;
@@ -1332,11 +1340,11 @@ footer > div > div:nth-of-type(3) {
   width: 25%;
 }
 footer > div > div:nth-of-type(1) p {
-  font-size: 1.5rem;
+  font-size: 20px;
   color: #fff;
 }
 footer > div > div:nth-of-type(1) img {
-  width: 80%;
+  width: 382px;
 }
 footer > div > div:nth-of-type(2) ul {
   margin: 0;
@@ -1347,10 +1355,10 @@ footer > div > div:nth-of-type(2) ul li {
 }
 footer > div > div:nth-of-type(2) ul li a {
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 16px;
 }
 footer > div > div:nth-of-type(3) p {
-  font-size: 2rem;
+  font-size: 25px;
   margin-bottom: 2rem;
 }
 footer > div > div:nth-of-type(3) * {
@@ -1360,7 +1368,7 @@ footer > div > div:nth-of-type(3) a {
   margin: 1rem;
 }
 footer > div > div:nth-of-type(3) img {
-  width: 3rem;
+  width: 36px;
 }
 @media (max-width: 1550px) {
   footer {
@@ -1395,6 +1403,9 @@ footer > div > div:nth-of-type(3) img {
   footer > div > div:nth-of-type(3) img {
     width: 2.5rem;
   }
+  footer > div > div:nth-of-type(1) img {
+    width: 80%;
+  }
 }
 @media (max-width: 992px) {
   footer {
@@ -1410,7 +1421,7 @@ footer > div > div:nth-of-type(3) img {
   }
 
   footer > div > div:nth-of-type(1) p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   footer > div > div:nth-of-type(2) ul li {
@@ -1420,7 +1431,7 @@ footer > div > div:nth-of-type(3) img {
     font-size: 0.9rem;
   }
   footer > div > div:nth-of-type(3) p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 1rem;
   }
 
